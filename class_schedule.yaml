@@ -1,0 +1,3 @@
+cat > config/class_schedule.yaml << EOF
+classes: []
+EOF

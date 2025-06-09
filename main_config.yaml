@@ -1,0 +1,5 @@
+# main_config.yaml
+cat > config/main_config.yaml << EOF
+app_name: "CyberSec Audio MCP"
+version: "1.0.0"
+EOF

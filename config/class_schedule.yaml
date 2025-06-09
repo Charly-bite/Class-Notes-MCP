@@ -1,0 +1,9 @@
+classes:
+  - name: "Network Security"
+    schedule: "Monday 09:00-11:00"
+    type: "presencial"
+    instructor: "Prof. Martinez"
+  - name: "Ethical Hacking"
+    schedule: "Wednesday 14:00-16:00"
+    type: "online"
+    platform: "Zoom"
