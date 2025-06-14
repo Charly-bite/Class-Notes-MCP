@@ -1,0 +1,25 @@
+# config/whisper_amd_a4_9125.yaml
+whisper_cpp_optimized:
+  # Configuración específica para AMD A4-9125
+  model_size: "small"  # Aprovechamos los 14.6 GB de RAM
+  threads: 2           # Máximo para 2 núcleos físicos
+  processors: 1        # Un proceso principal
+  
+  # GPU integrada Radeon R3
+  use_gpu: true
+  gpu_acceleration: "opencl"
+  gpu_memory_fraction: 0.3  # Conservador para GPU integrada
+  
+  # Optimizaciones específicas
+  batch_size: 1
+  beam_size: 1         # Reducir para CPU de 2 núcleos
+  best_of: 1          # Simplificar decodificación
+  temperature: 0.0    # Determinístico
+  
+  # Configuración de memoria
+  memory_optimization: true
+  chunk_length: 30    # Chunks más cortos para CPU limitado
+  
+  # Idioma
+  language: "es"
+  task: "transcribe"

@@ -1,4 +1,4 @@
-#!/home/byte/cybersec-audio-mcp/venv/bin/python3
+#!/home/byte/Proyectos/Class-Notes-MCP/venv/bin/python3
 # -*- coding: UTF-8 -*-
 from __future__ import print_function, division, absolute_import
 

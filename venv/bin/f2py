@@ -1,4 +1,4 @@
-#!/home/byte/cybersec-audio-mcp/venv/bin/python3
+#!/home/byte/Proyectos/Class-Notes-MCP/venv/bin/python3
 # -*- coding: utf-8 -*-
 import re
 import sys

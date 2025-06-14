@@ -1,0 +1,6 @@
+pyaudio
+openai-whisper
+spacy
+Jinja2
+PyYAML
+psutil
